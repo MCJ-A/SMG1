@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi servidor de Minecraft</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background-color: #f0f0f0;
+    }
+    .container {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center; 
+    }
+    h1 {
+      color: #333;
+    }
+    #ip-address {
+      margin-top: 20px;
+      font-size: 1.2em;
+    }
+    input[type="text"] {
+      border: 1px solid #ccc;
+      padding: 8px;
+      font-size: 1em;
+      width: 200px; 
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Mi servidor de Minecraft</h1>
+    <p>Para encender/apagar el servidor, accede a tu notebook de Google Colab.</p>
+    <p>La IP puede cambiar. Actualiza este valor si es necesario:</p>
+    <div id="ip-address">IP: <input type="text" value="tu_ip_de_minecolab" readonly></div> 
+  </div>
+</body>
+</html>
